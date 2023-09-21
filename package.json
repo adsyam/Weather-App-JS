@@ -1,0 +1,20 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss src/css/*.css --dir dist/css",
+    "watch-css": "postcss src/css/*.css --dir dist/css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.4.30",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss-preset-env": "^9.1.4"
+  }
+}
